@@ -1,5 +1,5 @@
 """
-Django settings for dtut project.
+Django settings for mysite project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'dtut.urls'
+ROOT_URLCONF = 'mysite.urls'
 
-WSGI_APPLICATION = 'dtut.wsgi.application'
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 # Database
